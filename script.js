@@ -408,11 +408,30 @@ const colegiosPorCidade = {
     { value: "Leonardo Becher", text: "E. E. C. Leonardo Becher" }
   ],
   "Arapua": [
-    { value: "Arapua", text: "C. E. Arapuá" },
+    { value: "Arapua", text: "C. E. Arapuã" },
     { value: "Candida", text: "C. E. Cândida" },
     { value: "Romeopolis", text: "C. E. Romeópolis" }
   ],
-    
+    "Cruzmaltina": [
+      { value: "Gualter Farias Negrao", text: "C.E. Gualter Farias Negrao" },
+      { value: "Jose Ferreira Diniz", text: "C.E. Jose Ferreira Diniz" },
+    ],
+  "Ariranha": [
+      { value: "Kennedy", text: "C.E. Kennedy" }
+    ],
+   "Sao Joao do Ivai": [
+      { value: "Arthur de Azevedo", text: "C.E. Arthur de Azevedo" },
+      { value: "Diogo A Correia", text: "C.E. Diogo A Correia" },
+     { value: "Jamil Aparecido Bonacin", text: "C.E. Jamil Aparecido Bonacin" },
+     { value: "Jose de Mattos Leao", text: "C.E. Jose de Mattos Leao" },
+     { value: "	Julio Emerenciano", text: "C.E. 	Julio Emerenciano" },
+    ],
+  "Sao Pedro do Ivai": [
+      { value: "Carlos Silva", text: "C.E. Carlos Silva" },
+      { value: "Conj Hab Virginio Seco", text: "C.E. Conj Hab Virginio Seco" },
+     { value: "Mariza", text: "C.E. Mariza" },
+     { value: "Vicente Machado", text: "C.E. Vicente Machado" }
+    ],
   // Adicione as outras cidades e seus colégios aqui
 };
 
@@ -450,4 +469,5 @@ cidadeSelect.addEventListener("change", function () {
       option.selected = true;
       colegioSelect.appendChild(option);
   }
+
 });
